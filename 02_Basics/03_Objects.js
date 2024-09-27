@@ -6,3 +6,5 @@ let obj = {
 
 console.log(obj.naam);
 console.log(obj["naam"]);
+console.log(obj);
+
