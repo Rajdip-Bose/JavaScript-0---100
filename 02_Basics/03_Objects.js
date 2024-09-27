@@ -1,3 +1,4 @@
 let obj = {
-    
+    key:"never"
 }
+
