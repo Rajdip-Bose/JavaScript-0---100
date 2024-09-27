@@ -1,5 +1,8 @@
 let obj = {
-    key:"never"
-    key2:"nope"
+    naam:"rajdip",
+    age:21,
+    sirname:"bose"
 }
 
+console.log(obj.naam);
+console.log(obj["naam"]);
