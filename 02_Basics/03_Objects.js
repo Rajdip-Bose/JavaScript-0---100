@@ -15,3 +15,11 @@ console.log(obj);
 // console.log(obj);
 // Object.freeze(obj)
 console.log(typeof obj[mysym]);
+
+obj.greeting = function(){
+    console.log(`Hellow , Good Morning, ${this.naam}`);
+    
+}
+
+console.log(obj.greeting());
+
