@@ -36,4 +36,6 @@ let obj3 = Object.assign({},obj1 , obj2)
 console.log(Object.keys(tinder));
 console.log(Object.values(tinder));
 
+console.log(Object.entries(tinder));
+console.log(tinder.hasOwnProperty("mailid"));
 
