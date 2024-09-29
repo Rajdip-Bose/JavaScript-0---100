@@ -20,7 +20,7 @@ let user = {
     }
 }
 
-console.log(user.fullName.UserFullname.firstName);
+// console.log(user.fullName.UserFullname.firstName);
 
 
 let obj1 = {1 : "a" , 2 : "b"}
@@ -33,9 +33,19 @@ let obj3 = Object.assign({},obj1 , obj2)
 // console.log(obj4);
 
 
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder));
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
 
-console.log(Object.entries(tinder));
-console.log(tinder.hasOwnProperty("mailid"));
+// console.log(Object.entries(tinder));
+// console.log(tinder.hasOwnProperty("mailid"));
+
+let course = {
+    c_name:"Js",
+    fees:404,
+
+}
+
+let {c_name} = course
+console.log(c_name);
+
 
