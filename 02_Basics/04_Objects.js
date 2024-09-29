@@ -44,7 +44,8 @@ let course = {
     fees:404,
     instructor:"Rajdip",
     id:9393,
-    roll_no:34
+    roll_no:34,
+    class:3
 
 }
 
