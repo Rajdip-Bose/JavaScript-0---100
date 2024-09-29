@@ -46,6 +46,7 @@ let course = {
 }
 
 let {c_name} = course
-console.log(c_name);
+console.log(c_name); 
+
 
 
