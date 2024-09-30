@@ -4,3 +4,10 @@ function f(){
 }
 
 f()
+
+function add(a,b){
+    console.log(a+b);
+    
+}
+
+add(12,32)
