@@ -20,3 +20,8 @@ let result = addd(23,43)
 console.log("Result is ",result);
 
 
+function userLoggedin(useername){
+    return `${useername} just logged in..`
+}
+
+console.log(userLoggedin("RAJA JI"));
