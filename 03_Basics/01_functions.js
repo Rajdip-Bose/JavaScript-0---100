@@ -9,5 +9,14 @@ function add(a,b){
     console.log(a+b);
     
 }
+function addd(a,b){
+    console.log(a+b);
+    return a+b
+    
+}
 
 add(12,32)
+let result = addd(23,43)
+console.log("Result is ",result);
+
+
