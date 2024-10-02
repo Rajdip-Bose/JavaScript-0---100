@@ -44,4 +44,8 @@ function info(object){
 
 }
 
-info(obj)
+// info(obj)
+info({
+    username:"Janny",
+    price:910
+})
