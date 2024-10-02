@@ -59,3 +59,4 @@ function arrayInfo(anyarrray){
 
 arrayInfo(araay)
 arrayInfo([2323,2434,3434,3434])
+
