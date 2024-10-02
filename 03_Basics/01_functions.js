@@ -56,3 +56,5 @@ function arrayInfo(anyarrray){
     console.log(anyarrray[2]);
     
 }
+
+arrayInfo(araay)
