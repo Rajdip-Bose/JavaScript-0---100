@@ -52,3 +52,7 @@ info({
 
 
 let araay= [39293,4342,5342,3]
+function arrayInfo(anyarrray){
+    console.log(anyarrray[2]);
+    
+}
