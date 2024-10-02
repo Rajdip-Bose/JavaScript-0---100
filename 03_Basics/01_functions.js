@@ -32,4 +32,16 @@ function addtoCart(...num){
     return num
 }
 
-console.log(addtoCart(10,21,24,45,5,66,78,7,424,23,23,13,1,3,12,1,2));
+// console.log(addtoCart(10,21,24,45,5,66,78,7,424,23,23,13,1,3,12,1,2));
+
+let obj= {
+    username:"Rajdip Bose",
+    price:100
+}
+
+function info(object){
+    console.log(`The Username is ${object.username} and the price is ${object.price}`);
+
+}
+
+info(obj)
