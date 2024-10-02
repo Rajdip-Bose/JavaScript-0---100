@@ -49,3 +49,6 @@ info({
     username:"Janny",
     price:910
 })
+
+
+let araay= [39293,4342,5342,3]
