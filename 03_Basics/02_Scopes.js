@@ -11,5 +11,5 @@ if (true){
 }
 
 console.log("Outer a = ",a);
-// console.log(b);
+console.log(b);
 // console.log(c);
