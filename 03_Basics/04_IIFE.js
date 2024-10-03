@@ -3,5 +3,5 @@
     
 })();
 
-( () => {console.log("DB Connected Two");})()
+( (name) => {console.log(`DB Connected Two ${name}` );})('Rajdip')
 
