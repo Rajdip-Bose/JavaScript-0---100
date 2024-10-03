@@ -38,5 +38,10 @@ let addtwo = (num1,num2) => {
     console.log(num1+num2);
     
 }
+let addthree = (num1,num2,num3) => num1+num2+num3
+    
+
 
 addtwo(9,10)
+console.log(addthree(9,10,10))
+console.log(typeof addthree)
