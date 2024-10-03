@@ -5,6 +5,8 @@ let website = {
 
     websiteUser : function greetings(){
         console.log(`hello ${this.username} , Welcome to out website.`)
+        console.log(this);
+        
     }
 }
 
