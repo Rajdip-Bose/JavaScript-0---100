@@ -18,7 +18,15 @@ let website = {
 // console.log(this);
 
  
-let chai = function() {
+// let chai = function() {
+//     let username = "Jan"
+//     console.log(this.username);
+    
+// }
+
+// chai()
+ 
+let chai = () => {
     let username = "Jan"
     console.log(this.username);
     
