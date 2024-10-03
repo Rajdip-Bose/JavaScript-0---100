@@ -4,9 +4,11 @@ let website = {
 
 
     websiteUser : function greetings(){
-        return   `hello ${this.username} , Welcome to out website.`
+        console.log(`hello ${this.username} , Welcome to out website.`)
     }
 }
 
-console.log(website.websiteUser());
+website.websiteUser()
+website.username="Sam"
+website.websiteUser()
  
