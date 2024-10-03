@@ -28,5 +28,12 @@ function one(){
     two()
 
 }
-one()
-two()
+// one()
+// two()
+
+console.log(addone(5));
+
+function addone(num){
+    return num + 1
+}
+
