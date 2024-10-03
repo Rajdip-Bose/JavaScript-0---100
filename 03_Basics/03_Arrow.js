@@ -15,6 +15,13 @@ let website = {
 // website.websiteUser()
 
 
-console.log(this);
+// console.log(this);
 
  
+let chai = function() {
+    let username = "Jan"
+    console.log(this.username);
+    
+}
+
+chai()
