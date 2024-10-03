@@ -28,8 +28,15 @@ let website = {
  
 let chai = () => {
     let username = "Jan"
-    console.log(this.username);
+    console.log(this);
     
 }
 
-chai()
+// chai()
+
+let addtwo = (num1,num2) => {
+    console.log(num1+num2);
+    
+}
+
+addtwo(9,10)
