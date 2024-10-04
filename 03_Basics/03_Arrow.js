@@ -49,5 +49,7 @@ console.log(typeof addthree)
 
 // tyring out lol i mean cheating
 
+let mul5 = (num1,num2) => console.log(num1*num2)
+mul5(9,10)
 let mul = (num1,num2) => console.log(num1*num2)
 mul(9,10)
