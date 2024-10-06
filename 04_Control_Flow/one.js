@@ -1,6 +1,6 @@
-let age = 20
+let age = 11
 
-if (age <18){
+if (age >=18){
     console.log("You Can drive the Car!");
     
 }
