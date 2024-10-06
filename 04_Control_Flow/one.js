@@ -5,6 +5,5 @@ if (age <18){
     
 }
 else{
-    console.log("Get LOST You idiot!!!!!!!!");
-    
+    console.log("Get LOST You idiot!!!!!!!!");   
 }
