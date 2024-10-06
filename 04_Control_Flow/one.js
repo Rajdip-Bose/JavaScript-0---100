@@ -8,9 +8,9 @@ else{
     console.log("Get LOST You idiot!!!!!!!!");   
 }
 
-
-for (age ; age > 0; age++) {
-    console.log(age);
+// infinity looooop lol/
+// for (age ; age > 0; age++) {
+//     console.log(age);
     
     
-}
+// }
