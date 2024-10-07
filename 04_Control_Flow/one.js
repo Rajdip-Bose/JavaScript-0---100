@@ -1,5 +1,20 @@
 
+let salary = 300
 
+if(salary < 2000){
+    console.log("You are very poor boy");
+    
+}
+else if(salary <= 3000){
+
+    console.log("you very rich bro");
+    
+
+}
+else{
+    console.log("Dimag mat kharab ker bhai ...");
+    
+}
 
 
 
