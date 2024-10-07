@@ -1,4 +1,4 @@
-let email = ""
+let email = "nahiHa@gmail.com"
 if(email){
     console.log("Got the mail");
     
