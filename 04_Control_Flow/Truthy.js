@@ -7,3 +7,7 @@ else{
     console.log("Didnt hav email");
     
 }
+
+let val1 = 5 ?? 10
+
+console.log(val1);
