@@ -21,4 +21,6 @@ console.log(val3);
 let myKnowledge = 10 
 myKnowledge >=100 ? console.log("Upun ich Bhagwan Ha") : console.log("Bhai tum gadhe ho kia");
 
+// samaj me aaya kiya???
+
 
