@@ -5,7 +5,10 @@ for (let index = 1; index <= 10; index++) {
     
 }
 
-for (let i = 0; i < array.length; i++) {
-    const element = array[i];
+for (let i = 1; i <= 10; i++) {
+    // for(let j = );
+    let j = 2
+    console.log(`${j} X ${i} = ${i*j}`);
+    
     
 }
