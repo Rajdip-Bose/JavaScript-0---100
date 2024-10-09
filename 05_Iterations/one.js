@@ -12,7 +12,17 @@ for (let i = 1; i <= 10; i++) {
         // let j = 2
         console.log(`${i} X ${j} = ${i*j}`);
     }
+
+ 
     
+    
+    
+}
+
+let array =["Batman","Superman","Spiderman"]
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    console.log(element);
     
     
 }
