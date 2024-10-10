@@ -37,7 +37,7 @@ while (i <=10) {
     i++;
     
 }
-let k = 1
+let k  = 1
 do { 
     console.log("this is do while loop",k);
     k++;
