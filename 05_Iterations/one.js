@@ -33,7 +33,13 @@
 // }
 let i = 1
 while (i <=10) {
-    console.log(i);
+    console.log("this is while loop",i);
     i++;
     
 }
+let k = 1
+do { 
+    console.log("this is do while loop",k);
+    k++;
+    
+} while (k <=10);
