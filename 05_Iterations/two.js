@@ -11,3 +11,17 @@ for (const s of string) {
     console.log(s);
     
 }
+
+
+let map = new Map()
+map.set("In","India")
+map.set("Eg","England")
+map.set("Jp","Japan")
+
+console.log(map);
+
+
+for (const [key,value] of map) {
+    console.log(key,value);
+    
+}
