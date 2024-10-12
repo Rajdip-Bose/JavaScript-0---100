@@ -142,7 +142,7 @@ const movies = [
       name: "Black Panther",
       genre: "Action-Adventure",
       publishYear: 2018,
-      director: "Ryan Coogler",
+      director: "Ryan Coogler" ,
     },
   ];
 
