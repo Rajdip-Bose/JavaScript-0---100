@@ -149,6 +149,6 @@ const movies = [
 
 //   const movieName = movies.filter( mn => mn.publishYear == "2018")
 //   console.log(movieName);
-  const movieYear = movies.filter( mn => mn.publishYear >= 2010)
+  const movieYear = movies.filter( mn => mn.publishYear >= 2015)
   console.log(movieYear);
   
