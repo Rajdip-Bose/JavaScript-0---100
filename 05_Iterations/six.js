@@ -147,8 +147,8 @@ const movies = [
   ];
 
 
-//   const movieName = movies.filter( mn => mn.publishYear == "2018")
-//   console.log(movieName);
+  const movieName = movies.filter( mn => mn.publishYear == "2018")
+  console.log(movieName);
   const movieYear = movies.filter( mn => mn.publishYear >= 2010)
   console.log(movieYear);
   
