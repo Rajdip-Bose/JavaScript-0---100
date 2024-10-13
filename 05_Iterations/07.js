@@ -43,3 +43,7 @@ let courses = [
         price : 999
     }
 ]
+
+
+const tPrice = courses.reduce( (acc,item) => acc+item.price ,0)
+console.log(tPrice);
