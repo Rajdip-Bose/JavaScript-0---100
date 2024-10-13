@@ -27,7 +27,7 @@ console.log(totall);
 
 let courses = [
     {
-        name : "java course",
+        name : "Java course",
         price : 999
     },
     {
