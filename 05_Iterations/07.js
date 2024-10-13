@@ -25,3 +25,4 @@ let number = [1,2,3,4]
 let totall = number.reduce( (acc,cv) => acc+cv , 0 ) 
 console.log(totall);
 
+let courses
