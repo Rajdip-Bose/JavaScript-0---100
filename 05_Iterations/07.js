@@ -21,7 +21,7 @@ let number = [1,2,3,4]
 // console.log(total);
 
 
-// ===============ARROW FUCTION===>
+// ===============ARROW FUCTION====>
 let totall = number.reduce( (acc,cv) => acc+cv , 0 ) 
 console.log(totall);
 
