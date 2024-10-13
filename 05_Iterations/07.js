@@ -11,10 +11,14 @@ let array = [1,2,3,4,5,6,7,8,9,10]
 // =================REDUCE===============>
 let number = [1,2,3,4]
 
-let total = number.reduce( function (acc,cv) {
-    console.log(`acc : ${acc} & cv : ${cv}`);
-    
-    return acc+cv
-},0)
 
+// =======NORMAL FUNCTION=======>
+// let total = number.reduce( function (acc,cv) {
+//     console.log(`acc : ${acc} & cv : ${cv}`);
+    
+//     return acc+cv
+// },0)
 console.log(total);
+
+let 
+
