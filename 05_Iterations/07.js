@@ -25,4 +25,21 @@ let number = [1,2,3,4]
 let totall = number.reduce( (acc,cv) => acc+cv , 0 ) 
 console.log(totall);
 
-let courses
+let courses = [
+    {
+        name : "java course",
+        price : 999
+    },
+    {
+        name : "java course",
+        price : 999
+    },
+    {
+        name : "java course",
+        price : 999
+    },
+    {
+        name : "Python course",
+        price : 999
+    }
+]
