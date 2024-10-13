@@ -35,7 +35,7 @@ let courses = [
         price : 999
     },
     {
-        name : "java course",
+        name : "javaScript course",
         price : 999
     },
     {
