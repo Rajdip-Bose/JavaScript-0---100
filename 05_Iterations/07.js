@@ -18,7 +18,10 @@ let number = [1,2,3,4]
     
 //     return acc+cv
 // },0)
-console.log(total);
+// console.log(total);
 
-let 
+
+// ===============ARROW FUCTION===>
+let totall = number.reduce( (acc,cv) => acc+cv , 0 ) 
+console.log(totall);
 
