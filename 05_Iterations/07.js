@@ -37,7 +37,7 @@ let courses = [
     {
         name : "javaScript course",
         price : 999
-    },
+    }, 
     {
         name : "Python course",
         price : 999
