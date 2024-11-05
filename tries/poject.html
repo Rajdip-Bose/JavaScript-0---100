@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Food</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff4e6; /* Light yellow background */
+        }
+        
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #ff9800;
+            color: #fff;
+            position: relative;
+            min-height: 60px;
+        }
+        
+        
+        #navbar {
+            display: flex;
+            flex: 1; /* Take equal space */
+            justify-content: flex-start;
+            gap: 15px;
+            max-width: 450px;
+        }
+        
+        #navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        #navbar a:hover {
+            color: #ffeb3b;
+        }
+        
+        /* Heading Styling */
+        .heading {
+            flex: 1; /* Take equal space */
+            text-align: center;
+        }
+        
+        .logo-text {
+            font-size: 24px;
+            margin: 0;
+            font-weight: bold;
+        }
+        
+        /* User Options Styling */
+        .user-options {
+            display: flex;
+            flex: 1; /* Take equal space */
+            justify-content: flex-end;
+        }
+        
+        .user-options a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-weight: bold;
+            background-color: #333;
+            margin: 0 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .user-options a:hover {
+            background-color: #555;
+        }
+        </style>
+</head>
+<body>
+
+<header>
+   
+    <nav id="navbar">
+        <a href="#">HOME</a>
+        <a href="#">PRODUCT</a>
+        <a href="#">SHOP</a>
+        <a href="#">LOCATION</a>
+        <a href="#">CONTACT US</a>
+    </nav>
+    <nav class="heading">
+        <h1 class="logo-text">HUNGRY FOOD</h1>
+    </nav>
+    <div class="user-options">
+        <a href="#">Sign Up</a>
+        <a href="#">Login</a>
+    </div>
+    <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+</header>
+
+<div class="photobgc">
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button class="search-button"></button>
+    </div>
+</div>
+
+<main class="main-content">
+    <section class="categories">
+        <div class="category-item">SNACK</div>
+        <div class="category-item">LUNCH</div>
+        <div class="category-item">ICE CREAM</div>
+        <div class="category-item">OTHER</div>
+    </section>
+
+    <section class="dishes">
+        <div class="dish-item">Dish 1</div>
+        <div class="dish-item">Dish 2</div>
+        <div class="dish-item">Dish 3</div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-main">    
+        <section class="first-section">
+            <h4>About Us</h4>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Report Fraud</a></li>
+            </ul>
+        </section>
+        <section>
+            <h4>Privacy and Policies</h4>
+            <ul>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Refund and Cancellation Policies</a></li>
+            </ul>
+        </section>
+        <section>
+            <h4>Contact and Support</h4>
+            <ul>
+                <li>Phone: +123 456 789</li>
+                <li>Email: support@hungryfood.com</li>
+                <li>Customer Support: Mon-Sat 7AM - 7PM</li>
+            </ul>
+        </section>
+        <section>
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </section>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const navbar = document.getElementById("navbar");
+        navbar.classList.toggle("show");
+    }
+</script>
+
+</body>
+</html>
