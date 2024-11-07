@@ -1,0 +1,184 @@
+:root {
+    --primary-color: #ff9800; /* Orange */
+    --secondary-color: #ffeb3b; /* Yellow */
+    --text-color: #333; /* Dark Text */
+    --background-color: #fff4e6; /* Light Background */
+    --border-radius: 10px; /* Common border radius */
+    --font-family: 'Arial', sans-serif; /* Common font */
+    --max-width: 1200px; /* Max width for layout */
+    --search-background-image: url('https://img.freepik.com/free-photo/top-view-bowls-with-indian-food_23-2148723454.jpg?t=st=1730648389~exp=1730651989~hmac=35faa6102a057f4c81eaba8e59dd83f6b2b62fd43eba970ae074425e5feda509&w=996'); /* Placeholder image */
+    --search-background-opacity: 0.3; /* Opacity for search background */
+}
+
+/* General Styles */
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* Search Container Styles */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+    background-image: var(--search-background-image);
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Space for the input/button */
+    border-radius: var(--border-radius);
+}
+
+.search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    position: relative;
+    z-index: 2; /* Above background */
+}
+
+.search-container button {
+    padding: 5px 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: var(--border-radius);
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    z-index: 2; /* Above background */
+}
+
+.search-container button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Food Item Styles */
+.food-locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.food-item {
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    width: calc(20% - 20px);
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-top: 1px solid var(--primary-color);
+}
+
+footer div {
+    width: 20%;
+}
+
+footer h4 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+footer ul li a:hover {
+    color: var(--primary-color);
+}
+
+footer button {
+    padding: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .food-item {
+        width: calc(50% - 20px); /* Two items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .food-item {
+        width: calc(100% - 20px); /* Full width for mobile */
+    }
+
+    .search-container input[type="text"] {
+        width: 100%; /* Full width for mobile */
+    }
+}
+
+
